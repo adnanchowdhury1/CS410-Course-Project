@@ -10,3 +10,7 @@ This lets you quickly see what areas you may need to learn or improve to match t
 
 
 This software is a Python program made of several small files that work together to compare a resume with job postings and find what skills the person is missing. First, it reads the text from a resume and a job posting, cleans it up, and breaks it into useful words using spaCy, a language processing tool. It then checks these words against a list of known skills stored in a JSON file. The software also uses TF-IDF to see which words in the job posting seem most important. After that, it looks at which skills the resume does not have, and gives each missing skill a score based on how often it appears in the job posting and whether it was marked as important. The main program brings all these steps together—scraping the job page, finding skills, comparing them, ranking them, and printing the results. The data folder provides example files, including a skill list and a sample resume used for testing.
+
+
+Video:
+https://mediaspace.illinois.edu/media/t/1_36heyxfb
